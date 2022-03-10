@@ -1,0 +1,17 @@
+.formulary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 203px;
+    background-color: #4F9419;;
+
+    &__content{
+        width: 100%;
+        max-width: 1140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
